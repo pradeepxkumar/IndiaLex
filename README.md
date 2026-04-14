@@ -200,7 +200,7 @@ IndiaLexABSA/
 ## Citation
 
 ```bibtex
-@misc{indialexabsa2024,
+@misc{indialexabsa2026,
   title={IndiaLexABSA: Aspect-Based Sentiment Analysis for Indian Regulatory Stakeholder Comments},
   author={Pradeep Kumar},
   year={2026},
