@@ -1,0 +1,66 @@
+# ============================================================
+# IndiaLexABSA — Dashboard / App Configuration
+# ============================================================
+
+app:
+  title: "IndiaLexABSA"
+  subtitle: "AI-Powered Stakeholder Comment Analysis for Indian Legislation"
+  version: "1.0.0"
+  favicon: "⚖️"
+
+  # Demo mode uses cached results — no API key or models needed
+  demo_mode: true
+
+  # Max PDF upload size in MB
+  max_upload_mb: 50
+
+  # Max PDFs for multi-doc comparison
+  max_comparison_docs: 5
+
+pipeline:
+  # Confidence threshold for clause linking
+  min_link_confidence: 0.35
+
+  # Confidence below which prediction is marked as low-confidence
+  ensemble_confidence_threshold: 0.65
+
+  # Cache directory for SHAP values
+  shap_cache_dir: "dashboard/.shap_cache"
+
+  # Whether to translate Hindi sentences before classification
+  translate_hindi: true
+
+ui:
+  # Colour for each sentiment (CSS hex)
+  colors:
+    supportive: "#2EC4B6"
+    critical:   "#E63946"
+    suggestive: "#F4A261"
+    neutral:    "#8D99AE"
+    ambiguous:  "#9B5DE5"
+
+  # Word cloud settings
+  wordcloud:
+    width: 400
+    height: 300
+    max_words: 80
+    background_color: "white"
+
+  # Heatmap settings
+  heatmap:
+    colorscale: "Blues"
+    height: 700
+
+export:
+  report_dir: "dashboard/generated_reports"
+  logo_path: "dashboard/assets/mca_logo.png"
+  font_dir: "dashboard/assets/fonts"
+
+  # PDF report sections to include
+  sections:
+    cover_page: true
+    executive_summary: true
+    clause_table: true
+    top_concerns: true
+    word_clouds: true
+    appendix: true

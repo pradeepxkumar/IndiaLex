@@ -1,0 +1,21 @@
+{
+  "doc_id": "demo_002",
+  "filename": "nasscom_dcb_response.pdf",
+  "submitter": "NASSCOM",
+  "category": "industry_body",
+  "url": "",
+  "full_text": "NASSCOM welcomes the Digital Competition Bill as a necessary step toward ensuring fair competitive practices in the digital economy. The provisions under Section 7 regarding anti-steering restrictions are broadly supported by our members. However, Section 4 on mandatory interoperability raises serious technical feasibility concerns. We suggest that the CCI be granted additional investigative powers under Section 16 to effectively monitor SSDE conduct. Section 12 data sharing obligations require clearer data localisation safeguards before implementation.",
+  "pages": [
+    {
+      "page_num": 1,
+      "text": "",
+      "tables": [],
+      "is_scanned": false,
+      "char_count": 480
+    }
+  ],
+  "word_count": 85,
+  "num_pages": 12,
+  "scanned_ratio": 0.0,
+  "extraction_method": "demo"
+}

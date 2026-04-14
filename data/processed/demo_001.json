@@ -1,0 +1,21 @@
+{
+  "doc_id": "demo_001",
+  "filename": "google_dcb_submission.pdf",
+  "submitter": "Google India Pvt Ltd",
+  "category": "startup",
+  "url": "",
+  "full_text": "Section 3 of the Digital Competition Bill imposes significant compliance burdens on Systemically Significant Digital Enterprises (SSDEs). We strongly oppose the mandatory data sharing provisions under Section 12 as they would compromise user privacy and trade secrets. The definition of SSDE under Section 2(1)(e) is overly broad and should be narrowed to prevent regulatory overreach. We support the objectives of promoting fair competition outlined in Section 7. The monetary thresholds for SSDE designation under Section 3(2) should be revised upward to align with international standards such as the EU Digital Markets Act.",
+  "pages": [
+    {
+      "page_num": 1,
+      "text": "",
+      "tables": [],
+      "is_scanned": false,
+      "char_count": 500
+    }
+  ],
+  "word_count": 98,
+  "num_pages": 8,
+  "scanned_ratio": 0.0,
+  "extraction_method": "demo"
+}

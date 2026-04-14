@@ -1,0 +1,72 @@
+# ============================================================
+# IndiaLexABSA — .gitignore
+# ============================================================
+
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Raw data (large files)
+data/raw/
+data/chromadb/
+*.pdf
+*.PDF
+
+# Model checkpoints (large)
+models/cache/
+models/checkpoints/
+*.ckpt
+*.bin
+*.pt
+*.safetensors
+
+# WandB
+wandb/
+*.wandb
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Generated reports
+dashboard/generated_reports/
+*.pdf.out
+
+# Logs
+logs/
+*.log
+
+# Temp
+tmp/
+temp/
