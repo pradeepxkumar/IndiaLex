@@ -202,9 +202,9 @@ IndiaLexABSA/
 ```bibtex
 @misc{indialexabsa2024,
   title={IndiaLexABSA: Aspect-Based Sentiment Analysis for Indian Regulatory Stakeholder Comments},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/your-username/IndiaLexABSA}
+  author={Pradeep Kumar},
+  year={2026},
+  url={https://github.com/pradeepxkumar/IndiaLex}
 }
 ```
 
