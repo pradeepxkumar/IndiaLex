@@ -1,6 +1,5 @@
 # ============================================================
-# IndiaLexABSA — Requirements (Cloud / Demo Mode)
-# For full local requirements: see requirements-local.txt
+# IndiaLexABSA — Streamlit Cloud (lightweight, demo mode)
 # ============================================================
 streamlit>=1.32.0
 plotly>=5.20.0
